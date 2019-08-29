@@ -1,0 +1,56 @@
+public class FiftyShadesOfJava {
+    public static void main (String args[]){
+                System.out.println("50 FACTS ABOUT JAVA\n");
+		System.out.println("Java was called Oak at the beginning");
+                System.out.println("Java was invented by accident");
+                System.out.println("It pays to learn Java");
+                System.out.println("Java is the second most popular language after C");
+                System.out.println("The JUnit Testing Framework is currently the top used Java technology.");
+                System.out.println("Java is the go-to tool for enterprises");
+                System.out.println("The Java mascot, ‘The Duke’ was created by Joe Palrang. ");
+                System.out.println("Palrang is the same guy who has worked on the Hollywood blockbuster, Shrek.");
+                System.out.println("Java practically runs on 1billion plus smartphones today because Google’s Android operating system uses Java APIs.");
+                System.out.println("Final is not final in Java");
+                System.out.println("Oracle is fighting a big courtroom battle with Google over the use of Java in the Android operating system.");
+                System.out.println("Effective Java, by Joshua Bloch is a popular book to learn Java");
+                System.out.println("Java is a modern object-oriented computer programming language.");
+                System.out.println("Java was created at Sun Microsystems, Inc.");
+                System.out.println("Java was made by James Gosling led a team of researchers in an effort to create a new language that would allow consumer electronic devices to communicate with each other.");
+                System.out.println("The Java compiler instead turns code into something called Bytecode, which is then interpreted by software called the Java Runtime Environment (JRE), or the Java virtual machine. ");
+                System.out.println("By the late 1990s Java had brought multimedia to the Internet and started to grow beyond the Web");
+                System.out.println("This language is continually ranked first in the rankings of software developers as the best choice of programming languages.");
+                System.out.println("Each year, Oracle releases a new Duke personality.");
+                System.out.println("Oak (Java) was originally a platform independent language developed for video game consoles, VCRs and other recording appliances to communicate.");
+                System.out.println("Meanwhile, the World Wide Web’s reach was expanding and Oak’s developers, James Gosling, and his team shifted their focus to the Internet.");
+                System.out.println("Oak became Java and WebRunner, an Oak enabled browser changed into another avatar- the HotJava web browser.");
+                System.out.println("Java was invented in 1992 after Oak, named for the tree outside Gosling’s window underwent a transformation.");
+                System.out.println("Java was developed at Sun Labs where the team started a “clean up�? of C++ and ended up with a whole new language and runtime.");
+                System.out.println("There are a host of Java sites for aspiring developers.");
+                System.out.println("Sun’s main technology site is java.sun.com. ");
+                System.out.println("The collaborative site run by Sun is known as java.net. ");
+                System.out.println("An advocacy or news site run by Sun is java.com/.");
+                System.out.println("Java has close to 9 million developers worldwide. ");
+                System.out.println("Java Basic Syntax involves 4 components- object, class, methods and instant variables.");
+                System.out.println("Java programming language features are case sensitive.");
+                System.out.println("All Program Java components- class, variables and methods- are referred to as identifiers");
+                System.out.println("In java, There are 2 categories of modifiers namely access and non-access.");
+                System.out.println("Java supports multiple as well as single line comments in a manner similar to C and C++ programming. ");
+                System.out.println("Java has different types of built-in data including strings, numbers, integers, and booleans.");
+                System.out.println("Software developers all over the world use Java");
+                System.out.println("Java can be used anywhere and everywhere.");
+                System.out.println(" Java codes is a programming language as well as a virtual machine and API specification. ");
+                System.out.println("One of the biggest advantages of this language making it easy for use across numerous settings is its high level of security and safety. ");
+                System.out.println("Another property of Java development which lends itself to multiple platforms is the top performance");
+                System.out.println("Java Programming Language basics is a lot more than just a usual programming language. ");
+                System.out.println(" It was developed by a mini team of engineers which is known as the Green Team. ");
+                System.out.println("Java programming language initiated was in 1991");
+                System.out.println("Java is free from the concept of Pointer.");
+                System.out.println("Java is used by 95% of the enterprises as their primary language.");
+                System.out.println("It is used  much more than C and the other languages.");
+                System.out.println("In one year Java gets downloaded one billion times.");
+                System.out.println("A Java developer’s median salary is $83, 975.00. It pays to be a Java developer.");
+                System.out.println("Today, Java rationally runs on more than 1 billion as the Android operating system of Google uses Java APIs.");
+                System.out.println("The first public implementation was Java 1.0 in 1995.");
+                System.out.println("Java contains built-in support for using computer networks.");                        
+    }
+}
