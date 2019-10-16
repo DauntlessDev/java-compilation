@@ -1,26 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-/**
- *
- * @author 201812522
- */
+class Outer_Demo {
+   int num;
+   
+   // inner class
+   private class Inner_Demo {
+      public void print() {
+         System.out.println("This is an inner class");
+      }
+   }
+   
+   // Accessing he inner class from the method within
+   void display_Inner() {
+      Inner_Demo inner = new Inner_Demo();
+      inner.print();
+   }
+}
+   
 public class MyFirstJavaProgram {
-    public static void main(String[] args){
-        String name = "Igop Brave";
-        System.out.println("Hello World");
-        System.out.println("Welcome to java "+ name);
-        
-    }
-    
+
+   public static void main(String args[]) {
+      // Instantiating the outer class 
+      Outer_Demo outer = new Outer_Demo();
+      
+      // Accessing the display_Inner() method.
+      outer.display_Inner();
+   }
 }
-/*
-public class LeuterioRomBraveheart {
-    public static void main(String[] args) {
-        System.out.println("Welcome to Java Programming Brave Leuterio!!!");
-    }
-}
-*/
