@@ -1,24 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
-/**
- *
- * @author 201812522
+package collections;
 
-public class LeuterioBrave {
-    public static void main(String[] args) {
-		
-		System.out.println("\tName: Rom Braveheart P. Leuterio");
-		System.out.println("\tSection: N21"); 
-		System.out.println("\tCourse: BSCSSE");
-		System.out.println("\tStudent Number: 201812522");
-		System.out.println("\tProgramming Languages: Android, C++, Kotlin, Python, PHP, HTML, JAVASCRIPT, JAVA");
-		System.out.println("\tJob Position: Machine Learning Engineer, that focuses on designing and building innovative models");
-		System.out.println("\tExperience: Job intern at Accenture for 3 months, and Worked as a free lancer for 3 yrs.");
-		
-		
+import java.util.*;
+public class NewClass {
+    public static void main(String args[]){
+    Integer values[] = {1,2,3,4,5,6,7,8,9,10};
+    List<Integer> listOfValues = new ArrayList();
+    System.out.println(listOfValues);
+        
+        
+    for(Integer value : values)
+        listOfValues.add(value);
+    for(Integer value : values)
+            System.out.print(value);
+    
+
+    Iterator i = listOfValues.iterator();
+    
+    while(i.hasNext()){
+        System.out.print(i.next());
+        }
+        System.out.print(listOfValues.add(5));
+    for(Integer value : values)
+            System.out.print(value);
+    System.out.println(listOfValues.isEmpty());
+    System.out.println(listOfValues.contains(1));
+    System.out.println(listOfValues.size());
+    System.out.println(listOfValues.remove(1));
+    while(i.hasNext()){
+        System.out.print(i.next());
+        }
+    System.out.println(listOfValues.remove(1));
     }
-} */
+}
+
